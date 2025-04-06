@@ -143,11 +143,13 @@ export const useGeneralSettingList = (): GeneralSettingList => {
 
 interface GeneralSettingProps {
   activeTab: SettingTab;
+  scrollAnchor?: string;
   onChangeSettingState: (settingState: SettingState) => void;
 }
 
 export const GeneralSetting = ({
   activeTab,
+  scrollAnchor,
   onChangeSettingState,
 }: GeneralSettingProps) => {
   switch (activeTab) {
@@ -164,7 +166,7 @@ export const GeneralSetting = ({
     case 'about':
       return <AboutAffine />;
     case 'plans':
-      return <AFFiNEPricingPlans />;
+      return <AFFiNEPricingPlans scrollAnchor={scrollAnchor} />;
     case 'billing':
       return <BillingSettings onChangeSettingState={onChangeSettingState} />;
     case 'experimental-features':

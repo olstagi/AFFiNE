@@ -2026,5 +2026,14 @@
   "error.NOTIFICATION_NOT_FOUND": "Notification not found.",
   "error.MENTION_USER_DOC_ACCESS_DENIED": "Mentioned user can not access doc {{docId}}.",
   "error.MENTION_USER_ONESELF_DENIED": "You can not mention yourself.",
-  "error.INVALID_APP_CONFIG": "Invalid app config."
+  "error.INVALID_APP_CONFIG": "Invalid app config.",
+  "com.affine.settings.aiSettings.title": "AI Settings",
+  "com.affine.settings.aiProvider.title": "AI Provider",
+  "com.affine.settings.aiProvider.description": "Select the AI provider to use for AI features.",
+  "com.affine.settings.ollamaBaseUrl.title": "Ollama Base URL",
+  "com.affine.settings.ollamaBaseUrl.description": "Enter the base URL for your Ollama instance.",
+  "com.affine.settings.openaiApiKey.title": "OpenAI API Key",
+  "com.affine.settings.openaiApiKey.description": "Enter your OpenAI API key.",
+  "com.affine.settings.geminiApiKey.title": "Gemini API Key",
+  "com.affine.settings.geminiApiKey.description": "Enter your Google AI Gemini API key."
 }

@@ -7,7 +7,7 @@ export const labelColor = createVar('labelColor');
 export const bgColor = createVar('bgColor');
 
 export const menuContent = style({
-  minWidth: '180px',
+  // minWidth: '180px', // Убираем минимальную ширину
   borderRadius: '8px',
   padding: '8px',
   fontSize: cssVar('fontSm'),
